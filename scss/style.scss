@@ -1,0 +1,162 @@
+.masthead{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+.mastheadContainer{
+    width: 100%;
+    margin-left: 8%;
+
+    @media #{$small-only}{
+            text-align: center;
+            margin: 0 auto;
+        }
+
+    img{
+
+        @media #{$medium-up}{
+            width: 500px;
+            margin-top: 20px;
+        }
+
+        @media #{$small-only}{
+            width: 400px;
+        }
+    }
+}
+
+.mastheadNav{
+    padding-top: 40px;
+    text-align: center;
+
+    ul{
+
+        @media #{$small-only}{
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+
+    a{
+        padding: 0 5px 0 5px;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+        @media #{$small-only}{
+            font-size: 16px;
+            letter-spacing: .5px;
+        }
+    }
+
+    a:hover{
+        color: #fff;
+        background-color: #9A40BA;
+    }
+}
+
+.nav{
+    border-top: 2px solid #ccc;
+    padding: 40px 0 20px 0;
+    margin-top: 20px;
+}
+
+.nav ul{
+    float: left;
+}
+
+.nav a{
+    padding: 0 6px 0 5px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+
+.nav a:hover{
+    color: #fff;
+    background-color: #9A40BA;
+}
+
+.illustration{
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+
+    .illustrationContainer{
+        padding-left: 6px;
+        display: block;
+        width: 100%;
+        overflow: hidden;
+
+        .item{
+            float: left;
+            margin: 2px;
+            width: 325px;
+            opacity: 100%;
+
+            figcaption{
+                -webkit-backface-visibility: hidden;
+                -moz-backface-visibility: hidden;
+                -ms-backface-visibility: hidden;
+                backface-visibility: hidden;
+                display: none;
+                width: 100%;
+                height: auto;
+                position: absolute;
+                z-index: 10;
+                padding-bottom: 10px;
+                margin-top: -150px;
+                background-color: rgba(22,22,22,.66);
+
+                h1, h4, p, a {
+                    font-size: 100%;
+                    margin-left: 8px;
+                    color: #fff;
+                    font-family: 'Dosis', sans-serif;
+                    text-transform: uppercase;
+                }
+            }
+
+            @media #{$small-only}{
+                width: 150px;
+            }
+
+            @media #{$medium-only}{
+                width: 260px;
+            }
+
+            img{
+                opacity: 1;
+            }
+
+            img:hover+figcaption{
+                -webkit-backface-visibility: hidden;
+                -moz-backface-visibility: hidden;
+                -ms-backface-visibility: hidden;
+                backface-visibility: hidden;
+                display: block;
+            }
+
+        }
+
+
+
+    }
+}
+
+.footer{
+
+    .copyright{
+
+    }
+
+    .social{
+
+    }
+
+}

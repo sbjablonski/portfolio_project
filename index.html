@@ -6,53 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rachel Jablonski | Illustration.</title>
     <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
     <script src="bower_components/imagesloaded/imagesloaded.js"></script>
-    <script src="js/app.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,700' rel='stylesheet' type='text/css'>
   </head>
 
     <body>
 
-        <header class = "masthead row">
-
-            <div class = "mastheadContainer large-12 columns">
-
-                <div class = "mastheadImage large-6 columns">
-
-                    <img src="images/masthead.png" alt="Rachel Jablonski Illustration">
-
-                </div>
-
-                <div class = "mastheadNav large-6 columns">
-
-                    <ul class = "inline-list">
-                        <li><a href="#">Illustration</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </header>
-
         <div class = "illustration">
 
             <div class = "nav row">
 
+              <div class = "navContainer">
+
                 <ul class = "inline-list">
-                    <li><a href="#">All</a></li>
-                    <li><a href="#">Editorial</a></li>
-                    <li><a href="#">Commercial</a></li>
-                    <li><a href="#">Personal</a></li>
+                    <li><div class = "allButton">All</div></li>
+                    <li><div class = "editorialButton">Editorial</div></li>
+                    <li><div class = "commercialButton">Commercial<div></li>
+                    <li><div class = "personalButton">Personal</div></li>
                 </ul>
+
+                <div class = "navMast"><img src = "images/mastheadNav.png"></div>
+
+              </div>
 
             </div>
 
+            <div class = "navSpace row"></div>
+
             <div id = "container" class = "js-masonry illustrationContainer row" data-masonry-options='{ "itemSelector": ".item", "columnWidth": 1 }'>
+
+              <div class = "item masthead">
+                <img src="images/masthead.png" alt="Rachel Jablonski Illustration">
+              </div>
 
               <div class = "item commercial">
                 <img src="images/halloween.jpg" alt="">
@@ -208,23 +195,23 @@
 
 
 
-            </div>
-
         </div>
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/foundation/js/foundation.min.js"></script>
         <script src="js/app.js"></script>
 
-    </body>
-
     <footer>
         <div class="row">
-            <div class="copyright medium-6 columns"></div>
+            <div class="copyright medium-6 columns">
+              <p>© Copyrighted 2015, Rachel Jablonski.</p>
+            </div>
             <div class="social medium-6 columns"></div>
         </div>
 
         <script src="bower_components/masonry/dist/masonry.pkgd.min.js"></script>
 
     </footer>
+  </div>
+  </body>
 
 </html>

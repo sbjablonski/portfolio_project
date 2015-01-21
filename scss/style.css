@@ -1,0 +1,134 @@
+.navSpace {
+  height: 70px; }
+
+.navContainer {
+  opacity: 0;
+  -webkit-transition: all 350ms ease;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-transition: all 350ms ease;
+  /* Firefox < 16 */
+  -ms-transition: all 350ms ease;
+  /* Internet Explorer */
+  -o-transition: all 350ms ease;
+  /* Opera < 12.1 */
+  transition: all 350ms ease; }
+
+.navContainer:hover {
+  float: right;
+  width: 100%;
+  opacity: 1; }
+
+.nav {
+  position: fixed;
+  z-index: 10;
+  max-width: 80%;
+  height: 10px;
+  background-color: #9A40BA;
+  -webkit-transition: all 350ms ease;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-transition: all 350ms ease;
+  /* Firefox < 16 */
+  -ms-transition: all 350ms ease;
+  /* Internet Explorer */
+  -o-transition: all 350ms ease;
+  /* Opera < 12.1 */
+  transition: all 350ms ease; }
+
+.nav:hover {
+  height: 60px;
+  background-color: #9A40BA;
+  box-shadow: 0 6px 8px -6px rgba(31, 31, 31, 0.66); }
+
+.nav ul {
+  height: 60px;
+  width: 100%;
+  float: right;
+  padding-top: 15px;
+  margin-right: 60px; }
+
+.nav li {
+  float: right;
+  padding: 0 6px 0 5px;
+  font-family: 'Dosis', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5px;
+  cursor: pointer; }
+
+.nav li:hover {
+  color: #333;
+  background-color: #fff; }
+
+.navMast {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 60px;
+  float: left;
+  display: none;
+  width: 200px; }
+
+.sectionSelected {
+  color: #E3E3DF; }
+
+.illustration {
+  background-color: white;
+  margin: 0 auto;
+  width: 80%;
+  box-shadow: 0 6px 8px 6px rgba(31, 31, 31, 0.25);
+  display: block; }
+  .illustration .illustrationContainer {
+    padding-left: 20px;
+    width: 100%;
+    overflow: hidden; }
+    .illustration .illustrationContainer .masthead {
+      padding: 0 20px 0 20px;
+      min-width: 300px;
+      height: 85px; }
+      .illustration .illustrationContainer .masthead img {
+        width: 100%; }
+    .illustration .illustrationContainer .item {
+      float: left;
+      margin: 5px;
+      width: 300px;
+      opacity: 100%; }
+      .illustration .illustrationContainer .item figcaption {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        display: none;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        z-index: 10;
+        padding-bottom: 10px;
+        margin-top: -150px;
+        background-color: rgba(22, 22, 22, 0.66); }
+        .illustration .illustrationContainer .item figcaption h1, .illustration .illustrationContainer .item figcaption h4, .illustration .illustrationContainer .item figcaption p, .illustration .illustrationContainer .item figcaption a {
+          font-size: 100%;
+          margin-left: 8px;
+          color: #fff;
+          font-family: 'Dosis', sans-serif;
+          text-transform: uppercase; }
+      .illustration .illustrationContainer .item img {
+        opacity: 1; }
+      .illustration .illustrationContainer .item img:hover + figcaption {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        display: block; }
+
+footer {
+  margin: 60px auto 0 auto;
+  padding-top: 60px;
+  width: 100%;
+  height: 200px;
+  background-color: #9A40BA; }
+  footer .copyright p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

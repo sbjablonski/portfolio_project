@@ -1,3 +1,5 @@
+$(document).foundation();
+
 $(document).ready(function(){
     var $container = $('#container').masonry({
     columnWidth: 20
